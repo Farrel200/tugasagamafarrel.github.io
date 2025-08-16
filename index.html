@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orb: On the Movements of the Earth</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading">
+        <div class="loader"></div>
+        <p>Loading universe...</p>
+    </div>
+
+    <h1>ORB : On the Movements of the Earth</h1>
+
+    <!-- Canvas Background for Stars -->
+    <canvas id="starfield"></canvas>
+
+    <!-- Characters Grid -->
+    <div class="character-grid">
+        <div class="character" data-name="Raffaele" data-kar="Karakter jenius muda yang mempelajar teologi." data-quote="̴  Dunia tidak begitu besar, tetapi terlalu besar bagi satu orang memahaminya sepenuhnya.">
+            <img src="Raffaele.jpg" alt="Raffaele">
+            <p>Raffaele</p>
+        </div>
+    <div class="character-grid">
+        <div class="character" data-name="Hubert" data-kar="Pendeta yang diam-diam mempelajari heliosentrisme sekaligus menjadi mentor Raffaele dan mengenalkannya pada dunia pengetahuan yang berbeda dari ajarann Gereja." data-quote="̴  Ilmu pengetahuan adalah satu-satunya jalan menuju kebenaran. Jangan berhenti mencari, bahkan jika itu berarti melawan dunia.">
+            <img src="hubert.jpg" alt="Hubert">
+            <p>Hubert</p>
+        </div>
+    </div>
+    <div class="character-grid">
+        <div class="character" data-name="Jolanta" data-kar="Seorang asisten peneliti di bidang astronomi yang memiliki keterbatasan dalam melakukan penelitian secara sepenuhnya akibat gender." data-quote="̴  Pikiran bekerja berdasarkan asumsi. Itulah batasan utamanya. Ketika kita berpikir, kita selalu membuat asumsi yang pada akhirnya menguasai kita. Mungkin tidak ada jalan keluar dari ini. Namun, di bawahnya, ada gairah yang membara, api yang sulit dikendalikan. Itu bisa mengarah pada perbuatan besar atau tragedi yang mengerikan.">
+            <img src="jolanta.jpg" alt="Jolanta">
+            <p>Jolanta</p>
+        </div>
+    </div>
+    <div class="character-grid">
+        <div class="character" data-name="Potocki" data-kar="ayah angkat Raffaele yang sangat menyayanginya dan merupakan seorang pembuat roti. Ia bukan seorang akademisi, tetpi ia memiliki pemahaman yang mendalam tentang realitas dunia yang keras."data-quote="̴  Satu-satunya perbedaan antara manusia dan hewan adalah manusia tidak dapat menerima kenyataan pahit. Kebenaran setengah-setengah mengarah pada kesalahpahaman, dan kesalahpahaman mengarah pada tragedi.">
+            <img src="potocki.jpg" alt="Potocki">
+            <p>Potocki</p>
+        </div>
+    </div>
+    <div class="character-grid">
+        <div class="character" data-name="Oczy" data-kar="Seorang petarung yang memiliki penglihatan luar biasa.Namun, ia memiliki trauma ketika menatap langit. Ia memiliki pandangan hidup yang negatif, tidak memiliki harapan akan dunia, dan ingin mati agagrmencapai surga"  data-quote="̴  Meskipun kita kecil dan tak berdaya, kita memiliki sesuatu yang lebih berharga dari segalanya-yaitu kemampuan untuk melihat kebenaran.">
+            <img src="oczy.jpg" alt="Oczy">
+            <p>Oczy</p>
+        </div>
+    </div>
+    
+
+    <!-- Character Info Modal -->
+    <div id="character-modal">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <h2 id="char-name"></h2>
+            <p><strong>Pengenalan : </strong><span id="char-kar"></span></p>
+            <blockquote id="char-quote"></blockquote>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 by Farrel | for educational use</p>
+    </footer>
+
+        <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: darkcyan;
+}
+/* Loading Screen */
+#loading {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.loader {
+    border: 8px solid white;
+    border-top: 8px solid cyan;
+    border-radius: 50%;
+    width: 60px; height: 60px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+/* Starfield */
+#starfield {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: -1;
+    background: black;
+}
+
+/* Characters Grid */
+.character-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: warp;
+}
+.character {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    flex-wrap: wrap;
+}
+.character img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid darkblue;
+    flex-wrap: wrap;
+ }
+.character:hover {
+    transform: scale(1.1);
+    flex-wrap: wrap;
+}
+
+/* Modal */
+#character-modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+#close-modal {
+    position: absolute;
+    top: 10px; right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+footer{
+    color: #fff;
+    background-color: #333;
+    padding: 1 rem;
+    margin-top: 3  rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
