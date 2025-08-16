@@ -103,3 +103,14 @@ footer{
     right: 0;
     text-align: center;
 }
+
+.warning{
+    color: blue;
+    font-size: 12;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
