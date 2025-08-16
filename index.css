@@ -6,8 +6,7 @@ body, html {
     font-family: Arial, sans-serif;
     color: white;
 }
-.test{
-    size: 100%;
+
 }
 h1{
     text-align: center;
@@ -115,4 +114,10 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.container{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
 }
