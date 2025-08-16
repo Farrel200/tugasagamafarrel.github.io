@@ -6,6 +6,9 @@ body, html {
     font-family: Arial, sans-serif;
     color: white;
 }
+.test{
+    size: 100%;
+}
 h1{
     text-align: center;
     color: darkcyan;
@@ -61,7 +64,6 @@ h1{
     height: 150px;
     border-radius: 50%;
     border: 2px solid darkblue;
-    flex-wrap: wrap;
  }
 .character:hover {
     transform: scale(1.1);
