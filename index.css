@@ -4,6 +4,8 @@ body, html {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
     font-family: Arial, sans-serif;
     color: white;
     overflow-x: auto;
@@ -126,6 +128,7 @@ footer{
     overflow-y: auto;
     min-width: 200;
     height: 100vh;
+    width: 10000;
     align-items: center;
 }
 
