@@ -111,8 +111,8 @@ footer{
 }
 
 .container{
-    width: 400;
-    height: 300;
+    width: 600;
+    height: 600;
     overflow-x: scroll;
     overflow-y: scroll;
 }
