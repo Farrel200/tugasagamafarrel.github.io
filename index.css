@@ -51,8 +51,6 @@ h1{
     align-items: center;
     height: 100vh;
     flex-wrap: warp;
-    overflow-x: scroll;
-    flex-wrap: wrap;
 }
 .character {
     text-align: center;
@@ -113,9 +111,16 @@ footer{
 }
 
 .container{
-    width: 2000;
-    height: 800;
+    width: 20000;
+    height: 1000;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
     overflow-x: scroll;
     overflow-y: scroll;
+    overflow-x: auto;
+    min-width: 200;
+    height: 100vh;
+    align-items: center;
 }
 
