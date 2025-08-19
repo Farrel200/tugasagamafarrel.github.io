@@ -125,6 +125,7 @@ footer{
     overflow-x: scroll;
     overflow-y: scroll;
     overflow-x: auto;
+    overflow-y: auto;
     min-width: 200;
     height: 100vh;
     align-items: center;
