@@ -102,7 +102,7 @@ h1{
 footer{
     color: #fff;
     background-color: #333;
-    padding: 1 rem;
+    padding: 2 rem;
     margin-top: 3  rem;
     position: absolute;
     bottom: 0;
@@ -117,8 +117,6 @@ footer{
 }
 
 .container{
-    width: 20000;
-    height: 1000;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
